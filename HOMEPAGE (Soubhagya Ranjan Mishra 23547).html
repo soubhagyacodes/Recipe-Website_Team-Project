@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="HOME_STYLESHEET.css">
+</head>
+
+<body>
+    <div class="navbox">
+
+       <div class="nav-logo">
+        <p>LOGO</p>
+       </div>
+
+       <div class="nav-search">
+        <input type="text" placeholder="Search Recipes..." id="searchbox">
+       </div>
+       
+       <div class="nav-login-signup">
+        <button class="signup">SIGN UP</button>
+        <button class="login">LOGIN</button>
+       </div>
+       
+       <p class="text">EXPLORE RECIPES</p>
+
+    </div>
+
+
+
+<div class="navboxesshop">     <!--Nav + Boxes-->
+
+
+
+<!-- Nav of Countries-->
+
+    <div class="placenav">
+        <p class="nav-element india" onclick="onindian()" id="indian" style="color: darkorange;border: 1px solid grey;border-radius: 20px;padding:10px 0px;">INDIAN</p>
+        <p class="nav-element" onclick="onchinese()" id="chinese">CHINESE</p>
+        <p class="nav-element" onclick="onothers()">JAPANESE</p>
+        <p class="nav-element" onclick="onothers()">KOREAN</p>
+        <p class="nav-element" onclick="onothers()">RUSSIAN</p>
+        <p class="nav-element" onclick="onothers()">BRITISH</p>
+    </div>
+
+<!--End Of Nav of Countries-->
+
+
+
+
+<!-- BOXES OF FOOD INDIAN -->
+
+    <div class="box_container" id="india" style="display: grid;">
+        
+        <!-- CHHOLE BHATURE -->
+        <div class="box1 box">
+            <img src="Images_Of_Home_Page/Food/Chole Bhature.jpg" alt="Chole Bhature">
+            <p class="food_name">CHHOLE BHATURE</p>
+            <p class="food_desc">
+                Indulge in a zesty Chhole Bhature feast, where a blend of vegetables meets aromatic spices, resulting in savory bhaji, served alongside warm pav rolls—an unforgettable experience.</p>
+            <a href="Kunsh Mittal (Roll No. 23572)/chole bhature.html"><button class="recipe">Go to Recipe</button></a>
+        </div>
+
+        <!-- SHAHI PANEER -->
+        <div class="box2 box">
+            <img src="Images_Of_Home_Page/Food/Shahi Paneer.webp" alt="Shahi Paneer">
+            <p class="food_name">SHAHI PANEER</p>
+            <p class="food_desc">Delight your senses with the aromatic allure of Shahi Paneer, where tender paneer is enrobed in a rich, real and flavorful tomato sauce infused with a symphony of spices, unveiled.</p>
+            <a href="Kunsh Mittal (Roll No. 23572)/Shahi paneer.html"><button class="recipe">Go to Recipe</button></a>
+        </div>
+
+        <!-- PAV BHAJI -->
+        <div class="box3 box">
+            <img src="Images_Of_Home_Page/Food/Pav Bhaji.jpg" alt="Pav Bhaji">
+            <p class="food_name">PAV BHAJI</p>
+            <p class="food_desc">A street-food extravaganza, Pav Bhaji delights with a medley of spiced vegetables, skillfully blended to create a flavorful, tangy bhaji, perfectly complemented by soft, buttered pav rolls.</p>
+            <a href="Kunsh Mittal (Roll No. 23572)/pav bhaji.html"><button class="recipe">Go to Recipe</button></a>
+        </div>
+
+        <!-- SAMOSA -->
+        <div class="box4 box">
+            <img src="Images_Of_Home_Page/Food/Samosa.jpg" alt="Samosa">
+            <p class="food_name">SAMOSA</p>
+            <p class="food_desc">A Popular Indian Snack, the Samosa features a crisp, golden pastry filled with a spiced mixture of potatoes, peas, and sometimes meat, delivering a delightful and satisfying culinary experience.</p>
+            <a href="Kunsh Mittal (Roll No. 23572)/samosa.html"><button class="recipe">Go to Recipe</button></a>
+        </div>
+
+    
+    </div>
+
+<!-- END!!! -->
+<!-- END OF THE BOXES OF FOOD INDIAN -->
+
+
+
+
+<!-- BOXES OF FOOD CHINESE-->
+
+
+
+<div class="box_container" id="china" style="display: none;">
+        
+    <!-- CHOWMEIN -->
+    <div class="box1 box">
+        <img src="Images_Of_Home_Page/Food/Chow-Mein.jpg" alt="Chowmein">
+        <p class="food_name">CHOWMEIN</p>
+        <p class="food_desc">Savory Chow Mein, a stir-fried noodle delight, wok-tossed with vibrant veggies and delectable sauces, creating a flavorful and satisfying dish that tantalizes taste buds with every delicious bite.</p>
+        <a href="Vivek Gautam (Roll No. 23554)/chowmein.html"><button class="recipe">Go to Recipe</button></a>
+    </div>
+
+    <!-- DUMPLINGS -->
+    <div class="box2 box">
+        <img src="Images_Of_Home_Page/Food/dumpling.jpg" alt="Dumpling">
+        <p class="food_name">DUMPLINGS</p>
+        <p class="food_desc">Experience dumpling bliss with delicate parcels filled with a savory mixture of meats or veggies, steamed or fried to perfection, delivering a burst of flavors in every bite—a culinary sensation.</p>
+        <a href="Vivek Gautam (Roll No. 23554)/dumpling.html"><button class="recipe">Go to Recipe</button></a>
+    </div>
+
+    <!-- SPRING ROLLS -->
+    <div class="box3 box">
+        <img src="Images_Of_Home_Page/Food/Spring-Rolls.jpg" alt="Spring Roll">
+        <p class="food_name">SPRING ROLLS</p>
+        <p class="food_desc">Embark on a spring roll extravaganza—a crispy, golden exterior giving way to a flavorful filling of veggies, meats, or both, creating a delightful snack that satisfies with its crunchy goodness.</p>
+        <a href="Vivek Gautam (Roll No. 23554)/springroll.html"><button class="recipe">Go to Recipe</button></a>
+    </div>
+
+
+</div>
+
+
+
+<!--END OF BOXES OF FOOD CHINESE-->
+
+
+
+
+
+
+
+<div class="shop">
+
+    <a href="Snehal Srivastava(Roll No. 23546)/index.html"><p id="heading_shop">Shop Utensils</p></a>
+
+    <img src="" alt="">
+
+    <a href="Snehal Srivastava(Roll No. 23546)/product1.html"><div class="options">  <!--OPTION 1-->
+        <div>
+            <img src="Images_Of_Home_Page/Shop/Crescent Kettle 1.webp" alt="Kettle">
+        </div>
+
+        <div class="options-text">
+            <p class="options-t1">Crescent Kettle</p>
+            <p class="options-t2">Elevate your cooking experience with the perfect blend of innovation</p>
+            <p class="options-t3">₹799</p>
+        </div>
+    </div></a>
+
+    <a href="Snehal Srivastava(Roll No. 23546)/product3.html"><div class="options">  <!--OPTION 2-->
+        <div>
+            <img src="Images_Of_Home_Page/Shop/Orchid.webp" alt="Kettle">
+        </div>
+
+        <div class="options-text">
+            <p class="options-t1">Orchid Fry Pan</p>
+            <p class="options-t2">Adorn your kitchen with Orchid Fry Pan, and make delicious meals</p>
+            <p class="options-t3">₹1899</p>
+        </div>
+    </div></a>
+
+    <a href="Snehal Srivastava(Roll No. 23546)/product2.html"><div class="options">  <!--OPTION 3-->
+        <div>
+            <img src="Images_Of_Home_Page/Shop/Royal Velvet Grill Pan 1.webp" alt="Kettle">
+        </div>
+
+        <div class="options-text">
+            <p class="options-t1">Royal Velvet Grill Pan</p>
+            <p class="options-t2">Add a royalty to your kitchen with Royal Velvet pans</p>
+            <p class="options-t3">₹1599</p>
+        </div>
+    </div></a>
+
+    <div class="shop-bt">
+        <a href="Snehal Srivastava(Roll No. 23546)/index.html"><button id="more">More Products...</button></a>
+    </div>
+
+
+</div>
+
+
+</div>      <!--End of Nav + Boxes-->
+
+
+    <div>
+
+        <a href="Kunsh Mittal (Roll No. 23572)/index copy.html" id="origin"><button class="more_recipes"><p id="moretxt">More Indian Recipes...</p></button></a>
+        
+
+    </div>
+
+
+<div class="footer">
+    <img src="Images_Of_Home_Page/_LOGO SS_Transparent_New.png" alt="Logo">
+
+    <div class="sec">
+        <p class="foot-head">Quick Links</p>
+
+        <div class="foot-items">
+            <ul>
+            <a href="Vivek Majhi (Roll No. 23555)/aboutus/aboutus/aboutus.html"><li>About Us</li></a>
+            <a href="Vivek Majhi (Roll No. 23555)/feedback/feedback/feedback.html"><li>Feedback</li></a>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="sec">
+        <p class="foot-head">Recipes</p>
+
+        <div class="foot-items">
+            <ul>
+            <a href="Kunsh Mittal (Roll No. 23572)/index copy.html"><li>Indian</li></a>
+            <a href="Vivek Gautam (Roll No. 23554)/chinese cuisine.html"><li>Chinese</li></a>
+            <li>Japanese</li>
+            <li>Korean</li>
+            <li>Russian</li>
+            <li>British</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+
+<p style="text-align: center; background-color: #f4daab;">Made with ❤️ By Soubhagya Ranjan Mishra</p>
+
+
+<script src="HOME_SCRIPTFILE.js"></script>
+</body>
+
+</html>

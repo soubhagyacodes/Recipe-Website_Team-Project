@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    font-family: "poppins",sans-serif;
+
+
+}
+
+
+
+.header{
+    background-color: teal;
+    margin: 0;
+    padding: 1%;
+    display: flex;
+    gap: 43%;
+
+}
+
+.header button{
+    height: 30%;
+}
+
+.header h1{
+
+    background-color: beige;
+    border-radius:2px;
+    padding: 5px;
+    
+}
+
+.about{
+
+    margin: 50px;
+    padding: 50px;
+    text-indent: 4px;
+    background-color: beige;
+}
+
+.about h1{
+    align-items: center;
+    text-align: center;
+}
+
+

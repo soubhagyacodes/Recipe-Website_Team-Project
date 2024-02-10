@@ -1,0 +1,116 @@
+.flex4 {
+    display: flex;
+    border: 2px solid black;
+    justify-content: right;
+    padding: right 3px;
+}
+
+.button1 {
+    transition: 0.4s;
+}
+
+.button1:hover {
+        background-color: aqua;
+    font-size: xx-large
+}
+
+.button1:link {
+    background-color: #fc8019;
+    text-decoration: none;
+
+}
+
+.alignleft {
+    margin-right: 20px;
+
+}
+
+#image {
+    height: 400px;
+}
+
+.alignright {
+    margin-left: 20px;
+}
+
+.flex2 {
+    display: flex;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    padding: 6px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    background-color: rgb(130, 145, 145);
+    margin-top: 10px;
+    flex-wrap: initial;
+    height: 20rem;
+
+}
+
+h1 {
+    color: #fc8019;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    height: 20rem;
+}
+
+.car {
+    
+    box-shadow: 0 8px 12px 0 rgba(3, 3, 3, 0.511);
+    transition: 0.3s;
+}
+
+.car:hover {
+    box-shadow: 0 12px 16px 0 rgb(0, 0, 0);
+}
+
+.flex0 {
+    display: flex;
+    position: absolute;
+    margin-top: -23rem;
+    height: 20rem;
+    width: 99%;
+    margin-left: 0.5rem;
+    justify-content: space-between;
+
+}
+
+.Today {
+    color: rgb(213, 211, 211);
+    animation-name: animate;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    75% {
+        color: green;
+    }
+
+    100% {
+        color: red;
+    }
+}

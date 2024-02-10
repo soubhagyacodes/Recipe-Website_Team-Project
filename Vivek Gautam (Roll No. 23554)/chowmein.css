@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+	margin: 0px;
+	padding:0px;
+	font-family: 'Acme', sans-serif;
+}
+
+.head{
+	height: 100px;
+	background-color: sandybrown;
+	padding-top:20px;
+    padding-left: 50px;
+	box-shadow:0px 2px dimgrey;
+	font-size: 30px ;
+}
+
+.main {
+	border:2px groove black;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	background-color: sandybrown;
+	border-radius: 25px;
+}
+
+#videocontainer{
+	background-color: floralwhite;
+	border-radius: 25px;
+	text-align: center;
+	box-shadow: 10px 10px 5px dimgrey;
+}
+
+#videocontainer video{
+	width: 800px;
+	border-radius: 10px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px 5px dimgrey;
+}
+
+#text{
+	background-color: floralwhite;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: 10px 10px 5px dimgrey;
+}
+
+#text h2{
+	text-decoration: underline;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#feedback{
+	background-color: floralwhite;
+	box-shadow: 10px 10px 5px dimgrey;
+	height: 150px;
+	padding-left: 40px;
+}
+
+#feedback h3{
+	text-decoration: underline;
+	margin-top: 20px;
+	font-size: 20px;
+}
+#feedback label{
+	margin-left: 20px;
+}
+
+#comment{
+	margin-top: 20px;
+	margin-left: 10px;
+	height: 30px;
+	width: 250px;
+}
+
+#submit{
+	margin-left: 95px;
+	margin-top: 5px;
+	height: 20px;
+	width: 80px;
+	background-color: sandybrown;
+	border: 2px groove dimgrey;
+	border-radius: 5px;
+}
+
+#submit:hover{
+	background-image: none;
+	background-color: lightpink;
+}

@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    font-family: Tahoma;
+    box-sizing: border-box;
+    padding:0;
+}
+
+.navbox{
+    height: 43vh;
+    background-image: url(Images_Of_Home_Page/BG\ TOP.jpeg);
+    background-size: cover;
+    background-repeat: none;
+    padding-top: 30px;
+    padding-right: 126px;
+    display: flex;
+}
+
+input{
+    padding-left: 20px;
+    border:none;
+}
+
+.text{
+    position: absolute;
+    top: 139px;
+    left: 38%;
+    font-family: Impact;
+    font-size: 54px;
+    color: royalblue;
+}
+
+.nav-login-signup{
+    margin-left: auto;
+
+}
+
+.nav-logo{
+    justify-self: end;
+}
+
+.nav-search{
+    margin-left: 38%;
+    margin-right: auto;
+    border: none;
+}
+
+
+#searchbox{
+    width: 400px;
+    height:45px;
+    border-radius: 60px;
+}
+
+.login{
+    background-color: white;
+    color: darkorange;
+    border: none;
+    width: 136px;
+    height: 46px;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.signup{
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+    margin-left: 10px;
+    color: darkorange;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+body{
+    background-color: #EDECF2;
+    z-index: 3;
+    height: 100vh;
+}
+
+.login:hover{
+    color:white;
+    background-color: darkorange;
+}
+
+.login:active{
+    border: 1px solid darkorange;
+    color: darkorange;
+    background-color: white;
+}
+
+.signup:active{
+    color:blue;
+}
+
+/* USING FLEX */
+/* .placenav{
+    display: flex;
+    width: 817px;
+    margin-left: 130px;
+    margin-top: 72px;
+    justify-content: space-around;
+    background-color: white;
+    color: grey;
+    height: 57px;
+    align-items: center;
+    border-radius: 54px;
+} */
+
+.placenav {
+    display: grid;
+    width: 832px;
+    margin-left: 120px;
+    margin-top: 72px;
+    background-color: white;
+    color: grey;
+    height: 57px;
+    align-items: center;
+    border-radius: 54px;
+    grid-template-columns: 110px 110px 110px 110px 110px 110px;
+    column-gap: 24px;
+    padding-left: 30px;
+}
+
+/*Previous Color Red: #eb0d0d; */
+
+/* USING FLEX */
+/* .selected{
+    padding: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    color: darkorange;
+    font-weight: medium;
+} */
+
+/* .selected {
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    color: darkorange;
+    font-weight: medium;
+    margin-left: 35px;
+} */
+
+.nav-element,.selected {
+    text-align: center;
+}
+
+.nav-element:hover{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px 0px;
+    cursor: default;
+    user-select: none;
+}
+
+.nav-element:active{
+    color: orange;
+}
+
+
+.india:hover{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px 0px;
+    width: 101px;
+}
+
+.india{
+    padding: 10px 0px;
+    width: 101px;
+}
+
+#select{
+    color: darkorange;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding:10px 0px;
+}
+
+
+.box_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 52px 0px 0px 120px;
+    height: auto;
+    width: 875px;
+    row-gap: 28px;
+}
+
+
+.box {
+    background-color: white;
+    width: 256px;
+    height: 440px;
+}
+
+.box img{
+    width: 229px;
+    height: 146px;
+    object-fit: center;
+    margin: 14px 0px 0px 13px;
+    object-fit: cover;
+}
+
+.food_name{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 26px;
+    margin-left: 16px;
+}
+
+.food_desc{
+    text-align: justify;
+    margin: 17px;
+}
+
+.recipe{
+    width: 227px;
+    height: 36px;
+    border-radius: 24px;
+    background-color: white;
+    color: orange;
+    margin: 2px 0px 0px 15px;
+    border: 2px solid orange;
+}
+
+.recipe:hover{
+    background-color: orange;
+    color:white;
+    border: none;
+}
+
+.recipe:active{
+    background-color: white;
+    color:orange;
+    border: 1px solid orange;
+}
+
+
+
+.selected:hover{
+    cursor: default;
+    user-select: none;
+}
+
+.more_recipes{
+    margin-left: 111px;
+    width: 874px;
+    height: 42px;
+    margin-top: 20px;
+    border: 3px solid orange;
+    background-color: orange;
+    color: white;
+}
+
+.more_recipes:hover{
+    background-color: white;
+    color: orange;
+}
+
+.more_recipes:active{
+   background-color: orange;
+   color: white;
+   border: 2px solid orange;
+}
+
+
+.shop{
+    width: 412px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    top: 383px;
+    right: 50px;
+    border-radius: 39px;
+    padding: 40px 25px;
+}
+
+#heading_shop{
+    font-size: 35px;
+}
+
+.options{
+    border: 0.1px solid #d8d6d6;
+    border-radius: 10px;
+    display:flex; 
+    margin-top: 20px;
+    font-size: 19px;
+    cursor:pointer;
+}
+
+.options:hover{
+    box-shadow: 0px 2px 5px -3px black;
+}
+
+.options img{
+    border-radius: 10px 0px 0px 10px;
+    width: 122px;
+    height: 100%;
+}
+
+.options-text{
+    margin-left: 10px;
+}
+
+.options-t1{
+    padding-top: 11px; 
+    font-weight: bold;
+}
+
+.options-t2{
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.options-t3{
+    margin-top: 8px;
+}
+
+.shop-bt{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.shop-bt button{
+    width: 210px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.shop-bt button:hover{
+    border: 2px solid orange;
+    background-color: white;
+    color: black;
+}
+
+.shop-bt button:active{
+    background-color: #f4daab;
+    color: black;
+}
+
+
+.footer{
+    background-color: #f4daab;
+    height: 391px;
+    margin-top: 50px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 300px 100px 130px;
+    column-gap: 300px;
+}
+
+.sec{
+    padding-top: 15px;
+}
+
+.foot-head {
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #6c6c6c;
+}
+
+ul{
+    font-size: 16px;
+    color: grey;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    color:grey
+}
+
+li:hover{
+    text-decoration: underline grey;
+}
+
+.footer img{
+    width: 310px;
+    height: 220px;
+}
+
